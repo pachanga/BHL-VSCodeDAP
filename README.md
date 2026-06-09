@@ -15,7 +15,7 @@ No npm dependencies — VS Code's built-in `DebugAdapterServer` handles all DAP 
 ## Install
 
 ```sh
-cd example/dap/vscode && make
+make
 ```
 
 This packs the extension with `vsce` and installs it via `code --install-extension`. Then **Reload Window** in VS Code (Cmd+Shift+P → "Reload Window").
@@ -28,7 +28,7 @@ This packs the extension with `vsce` and installs it via `code --install-extensi
 
 ## Development install
 
-1. Open `example/dap/vscode/` in VS Code.
+1. Open this repository in VS Code.
 2. Press **F5** — an Extension Development Host opens with the extension loaded.
 
 ## Usage
