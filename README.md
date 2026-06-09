@@ -46,8 +46,3 @@ This packs the extension with `vsce` and installs it via `code --install-extensi
 |---|---|---|
 | `host` | `localhost` | Host where the BHL debug server is running |
 | `port` | `7777` | Port the BHL debug server listens on |
-
-## Requirements
-
-- The Unity project must have `BHL_DEBUGGER` defined and `bhl_dap.dll` included.
-- See `example/dap/unity/` for the Unity-side integration example.
