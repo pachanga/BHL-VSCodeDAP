@@ -2,7 +2,7 @@
   "name": "bhl-debugger",
   "displayName": "BHL Debugger",
   "description": "Debugger for BHL scripts running in Unity",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "publisher": "bhl",
   "engines": { "vscode": "^1.80.0" },
   "activationEvents": [ "onDebugResolve:bhl" ],
