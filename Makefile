@@ -2,7 +2,7 @@ NAME    := $(shell node -e "process.stdout.write(require('./package.json').name)
 VERSION := $(shell node -e "process.stdout.write(require('./package.json').version)")
 VSIX    := $(NAME)-$(VERSION).vsix
 
-.PHONY: all install pack clean
+.PHONY: all install pack clean hooks
 
 all: install
 
@@ -16,3 +16,6 @@ install: $(VSIX)
 
 clean:
 	rm -f $(VSIX)
+
+hooks:
+	ln -sf ../../.githooks/post-commit .git/hooks/post-commit
